@@ -1,0 +1,3 @@
+data/* opt/syobon
+launcher/syobon usr/bin
+src/SyobonAction opt/syobon

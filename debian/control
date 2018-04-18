@@ -1,0 +1,15 @@
+Source: syobon
+Maintainer: Alfabook srl <info@scuolabook.it>
+Section: admin
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9), build-essential, pkg-config, libsdl1.2-dev,
+ libsdl-mixer1.2-dev, libsdl-image1.2-dev, libsdl-gfx1.2-dev, libsdl-sound1.2-dev,
+ libsdl-ttf2.0-dev
+
+Package: syobon
+Architecture: armhf
+Depends: ${misc:Depends}, libsdl1.2debian, libsdl-mixer1.2, libsdl-ttf2.0-0,
+ libsdl-gfx1.2-5, libsdl-image1.2, libsdl-sound1.2
+Description: Syobon
+ A Super Mario like game
